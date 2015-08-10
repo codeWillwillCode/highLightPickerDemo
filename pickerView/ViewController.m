@@ -46,7 +46,7 @@
     NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:yourString attributes:attributeDict];
     
     UILabel *label = [[UILabel alloc] init];
-    label.textAlignment = NSTextAlignmentLeft;
+    label.textAlignment = NSTextAlignmentCenter;
     label.backgroundColor = [UIColor clearColor];
     label.attributedText = attributedString;
     
